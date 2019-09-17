@@ -8,7 +8,7 @@
 
 npm install
 
+# 修改project.config.json里面的appid，然后运行项目，在开发者工具中就可以看到效果了
 npm run dev:weapp
 
 ```
-
