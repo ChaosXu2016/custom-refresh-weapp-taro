@@ -12,3 +12,13 @@ npm install
 npm run dev:weapp
 
 ```
+
+## 示例
+
++ iphone
+
+![iphone](./gif/iphone.gif)
+
++ android
+
+![android](./gif/android.gif)

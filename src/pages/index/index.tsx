@@ -23,7 +23,7 @@ function api() {
       arr.push({ id: i + (page - 1) * pageSize })
     }
     return new Promise(resolve => {
-      setTimeout(() => resolve({ total, list: arr }), 4000)
+      setTimeout(() => resolve({ total, list: arr }), 500)
     })
   }
 }
@@ -64,6 +64,7 @@ interface Index {
 class Index extends Component {
   config: Config = {
     navigationBarTitleText: '首页',
+    disableScroll: true
   }
   data = {
     refreshing: false,
